@@ -4,7 +4,7 @@
                    
 
 <p align="center">
-<img align="" width="300" height="500" src="https://github.com/moraesnicol/contador_de_pessoas/blob/master/images/contadorpessoas.png" title="contador">
+<img align="" width="424" height="700" src="https://github.com/moraesnicol/contador_de_pessoas/blob/master/images/contadorpessoas.png" title="contador">
 </p>
          
 
