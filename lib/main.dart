@@ -16,12 +16,16 @@ class _HomeState extends State<Home> {
   int _people = 0;
   String _infoText = "Espaço liberado, bem vindo(a)";
 
-  void _changePeople(int delta) {
+
+  _changePeople(int delta) {
+    
+   
+
     setState(() {
       _people += delta;
 
-      if (_people < 0) {
-        _infoText = "mundo invertido?";
+      if (_people == 0) {
+        return null;
       } else if (_people <= 20) {
         _infoText = "Espaço liberado, bem vindo(a)";
       } else {
@@ -45,16 +49,20 @@ class _HomeState extends State<Home> {
                 children: <Widget>[
                   Image.asset(
                     'images/fila.png',
-                    width: 180,
-                    height: 150,
+                    width: 380,
+                    height: 250,
                   ),
                   Text(
-                    '$_people',
+                    'Pessoas no local    $_people',
+                    textAlign: TextAlign.center,
                     style: TextStyle(
                       color: Colors.purpleAccent,
                       fontWeight: FontWeight.bold,
-                      fontSize: 80,
+                      fontSize: 45,
                     ),
+                  ),
+                   SizedBox(
+                    height: 30,
                   ),
                   Row(
                     mainAxisAlignment: MainAxisAlignment.center,
@@ -69,7 +77,12 @@ class _HomeState extends State<Home> {
                         width: 20,
                       ),
                       FloatingActionButton(
-                        onPressed: () => {_changePeople(-1)},
+                        onPressed: () => {if (_people == 0) {
+                          null
+                        } else {
+                       _changePeople(-1)  
+                        },
+                          },
                         tooltip: 'Remove',
                         child: Icon(Icons.remove),
                         backgroundColor: Colors.red,
@@ -90,15 +103,10 @@ class _HomeState extends State<Home> {
           ],
         ),
         bottomNavigationBar:
-            BottomNavigationBar(
-
-              
-              items: <BottomNavigationBarItem>[
+            BottomNavigationBar(items: <BottomNavigationBarItem>[
           BottomNavigationBarItem(
-            
             icon: Icon(Icons.home),
             label: 'Home',
-             
           ),
           BottomNavigationBarItem(
             icon: Icon(Icons.directions_walk),
