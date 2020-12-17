@@ -12,7 +12,7 @@
 <br />
 <br />
 <h3 align="center">
-Um simples contador de pessoas feito em Dart/Flutter para praticar essa tecnologia incrível ; )
+Um simples contador de pessoas feito em Dart/Flutter 
 </h3>
 <br />
 <br />
