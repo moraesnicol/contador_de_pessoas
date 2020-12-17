@@ -1,16 +1,45 @@
 # contador_de_pessoas
 
-A new Flutter project.
 
-## Getting Started
+                   
 
-This project is a starting point for a Flutter application.
+<p align="center">
+<img align="" width="300" height="600" src="https://github.com/moraesnicol/Quiz/blob/master/Quizgiffinal.gif" title="contador">
+</p>
+         
 
-A few resources to get you started if this is your first Flutter project:
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
+<br />
+<br />
+<h3 align="center">
+Um simples contador de pessoas feito em Dart/Flutter 
+</h3>
+<br />
+<br />
 
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+<p align="center">
+ <img src="https://img.shields.io/static/v1?label=PRs&message=welcome&color=7159c1&labelColor=000000" alt="PRs welcome!" />
+
+  <img alt="License" src="https://img.shields.io/static/v1?label=license&message=MIT&color=7159c1&labelColor=000000">
+</p>
+
+<p align="center">
+  <a href="#rocket-tecnologias">Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-projeto">Projeto</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+ 
+</p>
+<br>
+
+## :rocket: Tecnologias
+
+Esse projeto foi desenvolvido com a seguinte tecnologia:
+
+- [Flutter](https://flutter.dev/)
+
+## 💻 Projeto
+
+Um simples contador de pessoas
+
+
+
+
